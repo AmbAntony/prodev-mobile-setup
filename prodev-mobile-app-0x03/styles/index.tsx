@@ -16,17 +16,15 @@ const styles = StyleSheet.create({
     largeText: {
         fontSize: 40,
         fontWeight: 700,
-        marginTop: -1
     },
     smallText: {
-        fontSize: 16,
-        color: '#7E7B7B',
-        marginBottom: -12
+        fontSize: 12,
+        color: '#7E7B7B'
     },
     placeholderText: {
         fontSize: 18,
         color: '#7E7B7B',
-        marginBottom: 4
+        marginBottom: 7
     },
     inputField: {
         borderWidth: 1,
@@ -47,7 +45,7 @@ const styles = StyleSheet.create({
     formGroup: {
         marginTop: 44
     },
-    forgotPassswordText: {
+    forgotPasswordText: {
         fontSize: 17,
         marginTop: 9,
         textAlign: 'right',
@@ -55,19 +53,19 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: '#2B876E',
-        height: 43,
+        height: 53,
         borderRadius: 10,
-        marginTop: 20,
+        marginTop: 25,
         justifyContent: 'center',
         alignItems: 'center'
     },
     buttonText: {
         fontSize: 17,
-        color: '#FFFFFF',
+        color: 'white'
     },
     socialMediaButton: {
         borderWidth: 1,
-        height: 40,
+        height: 50,
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 10
@@ -89,13 +87,12 @@ const styles = StyleSheet.create({
     },
     divider: {
         borderWidth: 0.5,
-        borderColor: '#c2c2c2',
+        borderColor: "#c2c2c2",
         flex: 1
     },
     dividerText: {
         fontSize: 17,
-        color: '#C2C2C2',
-        margin: -2
+        color: "#C2C2C2",
     },
     subTextGroup: {
         flexDirection: 'row',
@@ -106,13 +103,16 @@ const styles = StyleSheet.create({
     },
     subText: {
         fontSize: 18,
-        color: '#b5b5b5',
+        color: '#b5b5b5'
     },
     subTextJoin: {
         fontSize: 18,
         color: '#FFA800',
-        fontWeight: 600,
+        fontWeight: 600
     }
-});
+    });
 
-export { styles }
+
+    export {
+    styles
+}
